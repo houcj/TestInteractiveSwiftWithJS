@@ -77,9 +77,9 @@ class ViewController: UIViewController,WKUIDelegate,WKNavigationDelegate,WKScrip
         webView.isUserInteractionEnabled = true
         webView.navigationDelegate = self
         
-        let urlRe = URLRequest.init(url:URL.init(string: "http://communication-service-v1.b2b.gznb.com")!)
+        
         //        let urlRe = URLRequest.init(url:URL.init(string: "www.sina.com.cn")!)
-        //        let urlRe = URLRequest.init(url:URL.init(string: "https://www.baidu.com")!)
+                let urlRe = URLRequest.init(url:URL.init(string: "https://www.baidu.com")!)
         
         webView.load(urlRe)
         
